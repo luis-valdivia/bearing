@@ -7,7 +7,7 @@
             <a
               href="#"
               class="hover:underline"
-            >Terms & Conditions</a>
+            >Terms and Conditions</a>
           </li>
           <li class="mb-1">
             <a
