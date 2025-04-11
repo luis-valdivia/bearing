@@ -25,11 +25,12 @@ jobs:
         run: pwd && ls && npm install
 
       - name: Build
-        run: npm run build && ls dist/*
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/*
+          publish_dir: dist
           cname: duckprincess.com
+          enable_jekyll: false
