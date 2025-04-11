@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      catchphrase: '"Steel tube bearings you can trust no matter where you go"',
+      catchphrase: '"Steel tube bearings we can trust no matter where you go"',
     }
   },
   mounted() {
