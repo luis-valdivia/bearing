@@ -6,6 +6,7 @@
     "dev": "vite",
     "build": "vite build && echo 'duckprincess.com' > dist/CNAME",
     "preview": "vite preview",
+    "postbuild": "cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist -b gh-pages",
     "lint": "eslint . --ext .js,.vue --fix"
   },
@@ -19,8 +20,8 @@
     "eslint": "^8.35.0",
     "eslint-plugin-vue": "^9.9.0",
     "gh-pages": "^6.3.0",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7",
-    "vite": "^4.1.0"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.5.13"
   }
 }
