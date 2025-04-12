@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && echo 'duckprincess.com' > dist/CNAME",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist -b gh-pages",
     "lint": "eslint . --ext .js,.vue --fix"
